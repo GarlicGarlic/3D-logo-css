@@ -1,0 +1,85 @@
+:root	{
+	--mouse-x: -90px;
+	--mouse-y: -90px;
+  --deg-x: 0deg;
+  --deg-y: 0deg;
+  --x: 0deg;
+  --y: 0deg;
+	scroll-behavior: smooth;
+}
+
+#frame .one  {
+  height: 50px;
+  width: 50px;
+  background: url(s1.png);
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  transform: rotateX(90deg) translateZ(30px);
+  /* transform: rotateX(90deg) rotateZ(90deg) translateZ(200px) translateY(-162px) translateX(162px); */
+}
+
+#frame .two {
+  height: 50px;
+  width: 50px;
+  transform: translateZ(30px);
+  background: url(front.png);
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+}
+
+#frame .three {
+  height: 50px;
+  width: 50px;
+  background: url(s3.png);
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  transform: rotateY(90deg) translateZ(30px);
+}
+
+#frame .four {
+  height: 50px;
+  width: 50px;
+  /* background-color: rgba(50, 50, 50, 0.7); */
+  background: url(m.png);
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  transform: rotateY(180deg) translateZ(-25px);
+}
+
+#frame .five {
+  height: 50px;
+  width: 50px;
+  background: url(5.png);
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  transform: rotateY(-90deg) translateZ(30px);
+}
+
+#frame .six {
+  height: 50px;
+  width: 50px;
+  background: url(s1.png);
+  background-repeat: no-repeat;
+  background-size: 60px 60px;
+  transform: rotateX(-90deg) rotate(180deg) translateZ(30px);
+}
+
+#view {
+  perspective: 1000px;
+  perspective-origin: 50% 100px;
+  margin-left: calc(-100vw + 120px);
+}
+
+#frame {
+  position: relative;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  transform-style: preserve-3d;
+  transform: rotateX(var(--x)) rotateY(var(--y));
+}
+
+.face {
+  position: absolute;
+  padding: 5px;
+}
