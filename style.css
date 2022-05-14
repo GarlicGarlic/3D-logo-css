@@ -11,7 +11,7 @@
 #frame .one  {
   height: 50px;
   width: 50px;
-  background: url(s1.png);
+  background: url(images/s1.png);
   background-repeat: no-repeat;
   background-size: 60px 60px;
   transform: rotateX(90deg) translateZ(30px);
@@ -22,7 +22,7 @@
   height: 50px;
   width: 50px;
   transform: translateZ(30px);
-  background: url(front.png);
+  background: url(images/front.png);
   background-repeat: no-repeat;
   background-size: 60px 60px;
 }
@@ -30,7 +30,7 @@
 #frame .three {
   height: 50px;
   width: 50px;
-  background: url(s3.png);
+  background: url(images/s3.png);
   background-repeat: no-repeat;
   background-size: 60px 60px;
   transform: rotateY(90deg) translateZ(30px);
@@ -40,7 +40,7 @@
   height: 50px;
   width: 50px;
   /* background-color: rgba(50, 50, 50, 0.7); */
-  background: url(m.png);
+  background: url(images/m.png);
   background-repeat: no-repeat;
   background-size: 60px 60px;
   transform: rotateY(180deg) translateZ(-25px);
@@ -49,7 +49,7 @@
 #frame .five {
   height: 50px;
   width: 50px;
-  background: url(5.png);
+  background: url(images/5.png);
   background-repeat: no-repeat;
   background-size: 60px 60px;
   transform: rotateY(-90deg) translateZ(30px);
@@ -58,7 +58,7 @@
 #frame .six {
   height: 50px;
   width: 50px;
-  background: url(s1.png);
+  background: url(images/s1.png);
   background-repeat: no-repeat;
   background-size: 60px 60px;
   transform: rotateX(-90deg) rotate(180deg) translateZ(30px);
